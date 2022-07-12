@@ -1,0 +1,437 @@
+
+export const options = [
+  {
+    _id: "1",
+    name: "Users",
+    image: "/Images/users.png",
+    categories: [
+      {
+        name: "Active Users",
+        href: "/active",
+        current: false,
+        _id: "11",
+        numbers: {
+          total: 20,
+          average: 14,
+        },
+        data: [
+          {
+            name: "Jan",
+            "Active User": 4500,
+            "Total Users": 3500,
+            "New Users": 1200,
+          },
+          {
+            name: "Feb",
+            "Active User": 900,
+            "Total Users": 1400,
+            "New Users": 1200,
+          },
+          {
+            name: "Mar",
+            "Active User": 2000,
+            "Total Users": 2500,
+            "New Users": 1200,
+          },
+          {
+            name: "Apr",
+            "Active User": 1500,
+            "Total Users": 5100,
+            "New Users": 1200,
+          },
+          {
+            name: "May",
+            "Active User": 3000,
+            "Total Users": 1500,
+            "New Users": 1200,
+          },
+          {
+            name: "Jun",
+            "Active User": 3400,
+            "Total Users": 2700,
+            "New Users": 1200,
+          },
+          {
+            name: "July",
+            "Active User": 1800,
+            "Total Users": 4500,
+            "New Users": 1200,
+          },
+          {
+            name: "Aug",
+            "Active User": 2800,
+            "Total Users": 3200,
+            "New Users": 1200,
+          },
+          {
+            name: "Sep",
+            "Active User": 3010,
+            "Total Users": 4700,
+            "New Users": 1200,
+          },
+          {
+            name: "Oct",
+            "Active User": 3800,
+            "Total Users": 1800,
+            "New Users": 1200,
+          },
+          {
+            name: "Nov",
+            "Active User": 5000,
+            "Total Users": 3100,
+            "New Users": 1200,
+          },
+          {
+            name: "Dec",
+            "Active User": 4400,
+            "Total Users": 4570,
+            "New Users": 1200,
+          },
+        ]
+      },
+      {
+        name: "Total Users",
+        href: "/total",
+        current: false,
+        _id: "12",
+        numbers: {
+          total: 85,
+          average: 45,
+        },
+        data: [
+          {
+            name: "Jan",
+            "Active User": 1245,
+            "Total Users": 2122,
+            "New Users": 3204,
+          },
+          {
+            name: "Feb",
+            "Active User": 4512,
+            "Total Users": 952,
+            "New Users": 6501,
+          },
+          {
+            name: "Mar",
+            "Active User": 2000,
+            "Total Users": 4510,
+            "New Users": 6251,
+          },
+          {
+            name: "Apr",
+            "Active User": 1500,
+            "Total Users": 3020,
+            "New Users": 4012,
+          },
+          {
+            name: "May",
+            "Active User": 7841,
+            "Total Users": 1500,
+            "New Users": 8512,
+          },
+          {
+            name: "Jun",
+            "Active User": 1200,
+            "Total Users": 2700,
+            "New Users": 6522,
+          },
+          {
+            name: "July",
+            "Active User": 2132,
+            "Total Users": 4500,
+            "New Users": 6021,
+          },
+          {
+            name: "Aug",
+            "Active User": 6562,
+            "Total Users": 3200,
+            "New Users": 9550,
+          },
+          {
+            name: "Sep",
+            "Active User": 3010,
+            "Total Users": 1502,
+            "New Users": 4510,
+          },
+          {
+            name: "Oct",
+            "Active User": 3800,
+            "Total Users": 2021,
+            "New Users": 5121,
+          },
+          {
+            name: "Nov",
+            "Active User": 1502,
+            "Total Users": 3100,
+            "New Users": 4501,
+          },
+          {
+            name: "Dec",
+            "Active User": 1200,
+            "Total Users": 1230,
+            "New Users": 2151,
+          },
+        ]
+      },
+      {
+        name: "New Users",
+        href: "/new-users",
+        current: false,
+        _id: "13",
+        numbers: {
+          total: 12,
+          average: 9,
+        },
+        data: [
+          {
+            name: "Jan",
+            "Active User": 5012,
+            "Total Users": 1512,
+            "New Users": 6850,
+          },
+          {
+            name: "Feb",
+            "Active User": 6541,
+            "Total Users": 2315,
+            "New Users": 9151,
+          },
+          {
+            name: "Mar",
+            "Active User": 2120,
+            "Total Users": 3851,
+            "New Users": 5151,
+          },
+          {
+            name: "Apr",
+            "Active User": 1500,
+            "Total Users": 4512,
+            "New Users": 6012,
+          },
+          {
+            name: "May",
+            "Active User": 3000,
+            "Total Users": 3520,
+            "New Users": 6625,
+          },
+          {
+            name: "Jun",
+            "Active User": 3400,
+            "Total Users": 2700,
+            "New Users": 1200,
+          },
+          {
+            name: "July",
+            "Active User": 1800,
+            "Total Users": 4500,
+            "New Users": 1200,
+          },
+          {
+            name: "Aug",
+            "Active User": 2800,
+            "Total Users": 3200,
+            "New Users": 1200,
+          },
+          {
+            name: "Sep",
+            "Active User": 3010,
+            "Total Users": 4700,
+            "New Users": 1200,
+          },
+          {
+            name: "Oct",
+            "Active User": 3800,
+            "Total Users": 1800,
+            "New Users": 1200,
+          },
+          {
+            name: "Nov",
+            "Active User": 5000,
+            "Total Users": 3100,
+            "New Users": 1200,
+          },
+          {
+            name: "Dec",
+            "Active User": 4400,
+            "Total Users": 4570,
+            "New Users": 1200,
+          },
+        ]
+      },
+    ],
+    tooltip: "Click here to see details and options about Users",
+  },
+  {
+    _id: "2",
+    name: "Chats",
+    image: "/Images/chats.png",
+    categories: [
+      {
+        name: "Total messages",
+        href: "/total-messages",
+        current: false,
+        _id: "21",
+      },
+      {
+        name: "Group messages",
+        href: "/groupmessages",
+        current: false,
+        _id: "22",
+      },
+      {
+        name: "Inbox messages",
+        href: "/inbox-messages",
+        current: false,
+        _id: "23",
+      },
+    ],
+    tooltip: "Click here to see details and options about Chats",
+  },
+  {
+    _id: "3",
+    name: "Groups",
+    image: "/Images/groups.jpg",
+    categories: [
+      {
+        name: "Private",
+        href: "/private",
+        current: false,
+        _id: "31",
+      },
+      {
+        name: "Semi-public",
+        href: "/semi-public",
+        current: false,
+        _id: "32",
+      },
+      {
+        name: "Public",
+        href: "/public",
+        current: false,
+        _id: "33",
+      },
+    ],
+    tooltip: "Click here to see details and options about Groups",
+  },
+  {
+    _id: "4",
+    name: "Goals",
+    image: "/Images/goals.png",
+    categories: [
+      {
+        name: "New",
+        href: "/new-goals",
+        current: false,
+        _id: "41",
+      },
+      {
+        name: "Active",
+        href: "/active-goals",
+        current: false,
+        _id: "42",
+      },
+      {
+        name: "Successful",
+        href: "/successful-goals",
+        current: false,
+        _id: "43",
+      },
+    ],
+    tooltip: "Click here to see details and options about Goals",
+  },
+  {
+    _id: "5",
+    name: "Contributions",
+    image: "/Images/contributions.jpg",
+    categories: [
+      {
+        name: "Total",
+        href: "/total-contributions",
+        current: false,
+        _id: "51",
+      },
+      {
+        name: "Expenses",
+        href: "/expenses",
+        current: false,
+        _id: "52",
+      },
+      {
+        name: "Remaining balance",
+        href: "/remaining-balance",
+        current: false,
+        _id: "53",
+      },
+      {
+        name: "Total pledges",
+        href: "/total-pledges",
+        current: false,
+        _id: "54",
+      },
+      {
+        name: "Successful pledges",
+        href: "/successful-pledges",
+        current: false,
+        _id: "55",
+      },
+      {
+        name: "Unsuccessful pledges",
+        href: "/unsuccessful-pledges",
+        current: false,
+        _id: "56",
+      },
+      {
+        name: "Mode of payment",
+        href: "/mode-of-payment",
+        current: false,
+        _id: "57",
+      },
+    ],
+    tooltip: "Click here to see details and options about Contributions",
+  },
+  {
+    _id: "6",
+    name: "Commission",
+    image: "/Images/commission.png",
+    categories: [
+      {
+        name: "mine commission",
+        href: "/mine-commission",
+        current: false,
+        _id: "61",
+      },
+      {
+        name: "Third-party commission",
+        href: "/third-party-commission",
+        current: false,
+        _id: "62",
+      },
+    ],
+    tooltip: "Click here to see details and options about Commission",
+  },
+  {
+    _id: "7",
+    name: "User Experience",
+    image: "/Images/userExperience.jpg",
+    categories: [
+      {
+        name: "Rating by Users",
+        href: "/rating",
+        current: false,
+        _id: "71",
+      },
+      {
+        name: "Feedbacks",
+        href: "/feedbacks",
+        current: false,
+        _id: "72",
+      },
+      {
+        name: "Reported users",
+        href: "/reported-users",
+        current: false,
+        _id: "73",
+      },
+    ],
+    tooltip: "Click here to see details and options about User experience",
+  },
+]

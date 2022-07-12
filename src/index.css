@@ -1,0 +1,42 @@
+h3 {
+  padding: 2px 0;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h1 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.signInButton {
+  margin-top: 15px;
+}
+
+.form {
+  margin-top: 20px;
+}
+.card {
+  height: 270px;
+  width: 200px;
+}
+.signInButtonGoogle {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.button {
+  margin-top: 20px;
+}
+.img {
+  margin-bottom: 150px;
+}
+.link {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.chart {
+  background-color: whitesmoke;
+}
+.chart {
+  color: rgb(118, 118, 216);
+}
